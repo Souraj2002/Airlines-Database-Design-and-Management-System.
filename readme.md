@@ -2,8 +2,8 @@
 
 ## M.Sc. Statistics Project
 
-**Author:** M.Sc. Statistics Student  
-**Date:** October 2025  
+**Author:** Souraj Chakraborty  
+**Date:** August 2025  
 **Database:** MySQL 8.0+
 
 ---
@@ -13,13 +13,11 @@
 1. [Project Overview](#project-overview)
 2. [Database Schema](#database-schema)
 3. [Statistical Analysis Features](#statistical-analysis-features)
-4. [Installation Guide](#installation-guide)
-5. [Usage Instructions](#usage-instructions)
-6. [Statistical Methodologies](#statistical-methodologies)
-7. [Query Examples](#query-examples)
-8. [Research Applications](#research-applications)
-9. [Future Enhancements](#future-enhancements)
-10. [References](#references)
+4. [Statistical Methodologies](#statistical-methodologies)
+5. [Query Examples](#query-examples)
+6. [Research Applications](#research-applications)
+7. [Future Enhancements](#future-enhancements)
+8. [References](#references)
 
 ---
 
@@ -210,46 +208,6 @@ Strategic indexes for optimal query performance:
 - Statistical anomaly identification
 
 ---
-
-## 🚀 Installation Guide
-
-### Prerequisites
-
-```bash
-- MySQL 8.0 or higher
-- MySQL Workbench (optional, recommended)
-- Minimum 500MB free disk space
-- Basic SQL knowledge
-```
-
-### Step-by-Step Installation
-
-#### Method 1: Command Line
-
-```bash
-# 1. Login to MySQL
-mysql -u root -p
-
-# 2. Execute schema creation
-source /path/to/airlines_schema.sql
-
-# 3. Insert sample data
-source /path/to/airlines_data_insert.sql
-
-# 4. Verify installation
-USE airlines_db;
-SHOW TABLES;
-SELECT COUNT(*) FROM flights;
-```
-
-#### Method 2: MySQL Workbench
-
-1. Open MySQL Workbench
-2. Connect to your MySQL server
-3. Go to **File → Open SQL Script**
-4. Select `airlines_schema.sql` and execute (⚡ Lightning icon)
-5. Select `airlines_data_insert.sql` and execute
-6. Verify tables in Navigator panel
 
 ### Verification
 
@@ -879,60 +837,21 @@ DELIMITER ;
 ## 📚 References
 
 ### Database Design
-- Date, C.J. (2019). *Database Design and Relational Theory*
 - Elmasri, R. & Navathe, S. (2015). *Fundamentals of Database Systems*
 
 ### Statistical Methods
 - Montgomery, D.C. (2019). *Introduction to Statistical Quality Control*
-- James, G. et al. (2021). *An Introduction to Statistical Learning*
 - Box, G.E.P. et al. (2015). *Time Series Analysis: Forecasting and Control*
 
 ### Aviation Industry
 - Belobaba, P. et al. (2015). *The Global Airline Industry*
 - Vasigh, B. et al. (2018). *Introduction to Air Transport Economics*
 
-### Online Resources
-- MySQL Documentation: https://dev.mysql.com/doc/
-- Statistical Analysis: https://www.statology.org/
-- R for Data Science: https://r4ds.had.co.nz/
-
----
-
-## 👥 Contributing
-
-This project is open for educational purposes. Suggestions for improvements:
-
-1. Fork the repository
-2. Create feature branch
-3. Submit pull request with detailed description
-
----
 
 ## 📧 Contact & Support
 
 For questions or issues:
-- Email: your.email@university.edu
-- GitHub Issues: [Project Repository]
-- Office Hours: [Schedule]
-
----
-
-## 📄 License
-
-This project is licensed for educational use only.  
-© 2025 M.Sc. Statistics Program
-
----
-
-## 🎉 Acknowledgments
-
-Special thanks to:
-- Department of Statistics
-- Database Systems course instructors
-- Aviation industry data partners
-- Open-source community
-
----
+- Email: souraj.bhu.stats26@gmail.com
 
 **Last Updated:** October 2025  
 **Version:** 1.0  
