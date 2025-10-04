@@ -611,8 +611,6 @@ ORDER BY on_time_performance_pct DESC;
 
 ## 🎓 Research Applications
 
-### Suitable for M.Sc. Statistics Projects
-
 #### 1. Predictive Modeling Projects
 
 **Title:** "Predictive Models for Flight Delay Patterns"
